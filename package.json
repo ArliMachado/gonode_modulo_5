@@ -1,0 +1,25 @@
+{
+  "name": "gonode_modulo_5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ArliMachado/gonode_modulo_5.git",
+  "author": "Arli <arli.machado@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "pg": "^7.11.0",
+    "sequelize": "^5.9.4"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "sequelize-cli": "^5.5.0",
+    "sqlite3": "^4.0.9"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --ignore __tests__"
+  }
+}
