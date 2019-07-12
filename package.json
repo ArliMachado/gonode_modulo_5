@@ -14,6 +14,8 @@
     "sequelize": "^5.9.4"
   },
   "devDependencies": {
+    "factory-girl": "^5.0.4",
+    "faker": "^4.1.0",
     "jest": "^24.8.0",
     "nodemon": "^1.19.1",
     "sequelize-cli": "^5.5.0",
